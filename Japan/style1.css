@@ -1,0 +1,60 @@
+.name{
+	font-size: 20pt;
+	color: rgb(199, 21, 133);
+}
+body{
+	background-image: url(img/sakura2.jpg);
+	filter: opacity(40);
+	font-family: Arial;
+	padding: 0px, 20px, 0px, 20px;
+}
+.container{
+	padding-left: 200px;
+	padding-right: 200px;
+}
+.photo{
+	width: 60%;
+	padding: 1.11rem;
+	border-radius: 5px;
+	margin: 0px 20px 1.5rem auto;
+	background-color: #E0FFFF;
+	float: left;
+}
+.photo img{
+	width: 100%;
+}
+.photo caption{
+	font-size: 5px;
+	text-align: justify;
+}
+.navbar{
+	display: flex;
+	background-color: #FFEFD5;
+}
+.header{
+	padding: 30px;
+	text-align: center;
+	background-color: #FFC0CB;
+	color: #fff;
+}
+.navbar a{
+	color: black;
+	padding: 14px 20px;
+	text-decoration: none;
+	text-align: center;
+}
+.navbar a:hover{
+	background-color: #ddd;
+	color: black;
+}
+.captain{
+	font-size: 15px;
+}
+.footer{
+	padding: 15px;
+	text-align: right;
+	background-color: #D3D3D3;
+	margin-top: 10px;
+	color: black;
+	clear: left;
+}
